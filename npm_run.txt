@@ -1,0 +1,17 @@
+cd backend
+npm install
+npm run generate
+npm run create_generic
+npm run upload_files
+npm run upload_metadata
+
+// deploy
+npm run deploy_contract
+npm run get_contract
+
+// update
+npm run update_presale_mint_start_date
+npm run update_royalty_share
+npm run update_royalty_address
+npm run update_prereveal_token_uri
+npm run update_base_uri
